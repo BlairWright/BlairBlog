@@ -1,8 +1,9 @@
 <?php
+     $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
+     $post = filter_input(INPUT_POST, "post", FILTER_SANITIZE_STRING);
+     
+     
+     echo "<p>Title: $title</p>";
+     echo "<p>Post: $post</p>";
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
